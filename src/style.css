@@ -5,11 +5,11 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 140px auto;
+  margin: 120px auto;
 }
 
 header {
-  margin: 40px;
+  margin: 20px;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h1 {
   line-height: 1.5;
   color: blueviolet;
   font-weight: 700;
+  text-align: center;
 }
 
 a {
