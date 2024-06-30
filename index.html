@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="quote-generator">
-          <input
-            type="text"
-            placeholder="Enter topic..."
-            autofocus
-            required
-            autocomplete="off"
-            class="topic-instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-generator">
+            <input
+              type="text"
+              placeholder="Enter one topic for a quote"
+              autofocus
+              required
+              autocomplete="off"
+              class="topic-instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e.: love, sun, life, ...</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
       <footer>
         This project was coded by Marta Reis 💜 and is open sourced on

@@ -23,13 +23,23 @@ a {
   color: blueviolet;
 }
 
-form {
-  padding: 35px;
+.form-container {
+  padding: 25px;
   background-color: white;
   border-radius: 10px;
-  display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.hint {
+  font-style: italic;
+  color: grey;
+  font-size: 12px;
 }
 
 .topic-instructions {
@@ -60,20 +70,54 @@ form {
   font-size: 15px;
   font-style: italic;
   line-height: 1.5;
-  padding: 20px;
+  padding: 10px;
   border-left: 3px solid rgb(222, 124, 27);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.04);
   margin-bottom: 25px;
 }
 
+.hidden {
+  display: none;
+}
+
 .quote strong {
   color: blueviolet;
   font-size: 12px;
-  padding-left: 40px;
   font-style: normal;
+  padding-left: 40px;
 }
 
 footer {
   font-size: 13px;
   text-align: center;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.generating {
+  animation: fade 1000ms infinite;
+  -webkit-animation: fade 1000ms infinite;
+  padding-left: 20px;
 }
