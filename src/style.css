@@ -58,11 +58,19 @@ form {
   background-color: white;
   color: rgb(70, 69, 69);
   font-size: 15px;
+  font-style: italic;
   line-height: 1.5;
   padding: 20px;
   border-left: 3px solid rgb(222, 124, 27);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.04);
   margin-bottom: 25px;
+}
+
+.quote strong {
+  color: blueviolet;
+  font-size: 12px;
+  padding-left: 40px;
+  font-style: normal;
 }
 
 footer {
