@@ -72,6 +72,8 @@ form {
   line-height: 1.5;
   padding: 10px;
   border-left: 3px solid rgb(222, 124, 27);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.04);
   margin-bottom: 25px;
 }
