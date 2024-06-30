@@ -1,1 +1,71 @@
+body {
+  background-color: rgb(228, 223, 232);
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+.container {
+  max-width: 600px;
+  margin: 140px auto;
+}
+
+header {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 1.5;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+a {
+  color: blueviolet;
+}
+
+form {
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 25px;
+}
+
+.topic-instructions {
+  padding: 10px;
+  border: 1px solid rgba(222, 124, 27, 0.3);
+  background-color: rgba(222, 124, 27, 0.3);
+  border-radius: 10px;
+  width: 75%;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(100, 98, 98);
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #de7c1b;
+  border: 1px solid #de7c1b;
+  color: white;
+  border-radius: 10px;
+  width: 20%;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.quote {
+  background-color: white;
+  color: rgb(70, 69, 69);
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 20px;
+  border-left: 3px solid rgb(222, 124, 27);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.04);
+  margin-bottom: 25px;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+}
